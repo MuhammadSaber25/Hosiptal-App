@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="32caaa436cbf4b118e70d2aec61a5b00" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="HospitalModel.department" Width="1.5" PointX="0.75" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.employee" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.lab" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.media_records" Width="1.5" PointX="10.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.medicien" Width="1.5" PointX="6" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.patient" Width="1.5" PointX="7.875" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.payment" Width="1.5" PointX="10.5" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.room" Width="1.5" PointX="6.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HospitalModel.Admin" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="HospitalModel.FK__lab__Emp_id__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK__media_reco__P_ID__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK__payments__P_Id__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.FK__rooms__P_ID__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.d_emp" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.p_emp" ManuallyRouted="false" />
+        <AssociationConnector Association="HospitalModel.p_m" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
